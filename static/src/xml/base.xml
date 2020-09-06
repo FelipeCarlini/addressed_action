@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<templates id="template" xml:space="preserve">
+    <t t-extend="WebClient.DebugManager.Action">
+        <t t-jquery="t[t-if='action.res_model']" t-operation="after">
+            <a role="menuitem" href="#" data-action="addressed_action_view" class="dropdown-item">Open action view</a>
+        </t>
+    </t>
+</templates>
