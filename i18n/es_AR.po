@@ -1,0 +1,96 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+#	* addressed_action
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 12.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-08-07 16:08+0000\n"
+"PO-Revision-Date: 2020-08-07 16:08+0000\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: addressed_action
+#: model:ir.actions.act_window,name:addressed_action.action_addressed_action
+msgid "Actions"
+msgstr "Acciones"
+
+#. module: addressed_action
+#: model_terms:ir.ui.view,arch_db:addressed_action.addressed_action_view_tree
+msgid "Charge action"
+msgstr "Cargar acción"
+
+#. module: addressed_action
+#: model:ir.model.fields,field_description:addressed_action.field_addressed_action__create_uid
+msgid "Created by"
+msgstr "Creado por"
+
+#. module: addressed_action
+#: model:ir.model.fields,field_description:addressed_action.field_addressed_action__create_date
+msgid "Created on"
+msgstr "Creado el"
+
+#. module: addressed_action
+#: model:ir.model.fields,field_description:addressed_action.field_addressed_action__display_name
+msgid "Display Name"
+msgstr "Nombre mostrado"
+
+#. module: addressed_action
+#: model:ir.model.fields,field_description:addressed_action.field_addressed_action__external_id
+msgid "External ID"
+msgstr "ID externo"
+
+#. module: addressed_action
+#: code:addons/addressed_action/models/addressed_action.py:16
+#, python-format
+msgid "External ID not found in the system"
+msgstr "ID externa no encontrada en el sistema"
+
+#. module: addressed_action
+#: model:ir.model.fields,field_description:addressed_action.field_addressed_action__id
+msgid "ID"
+msgstr "ID"
+
+#. module: addressed_action
+#: model:ir.model.fields,field_description:addressed_action.field_addressed_action____last_update
+msgid "Last Modified on"
+msgstr "Última modificación en"
+
+#. module: addressed_action
+#: model:ir.model.fields,field_description:addressed_action.field_addressed_action__write_uid
+msgid "Last Updated by"
+msgstr "Última actualización por"
+
+#. module: addressed_action
+#: model:ir.model.fields,field_description:addressed_action.field_addressed_action__write_date
+msgid "Last Updated on"
+msgstr "Última actualización el"
+
+#. module: addressed_action
+#: model:ir.model.fields,field_description:addressed_action.field_addressed_action__name
+msgid "Name"
+msgstr "Nombre"
+
+#. module: addressed_action
+#. openerp-web
+#: code:addons/addressed_action/static/src/xml/base.xml:6
+#, python-format
+msgid "Open action view"
+msgstr "Ver vista de acciones"
+
+#. module: addressed_action
+#: code:addons/addressed_action/models/addressed_action.py:26
+#, python-format
+msgid "Verify the model of the external id"
+msgstr "Verificar el modelo de la id externa"
+
+#. module: addressed_action
+#: model:ir.model,name:addressed_action.model_addressed_action
+msgid "addressed.action"
+msgstr ""
+
