@@ -3,6 +3,7 @@ from odoo import fields, models, api, _, exceptions
 
 class AddressedAction(models.Model):
     _name = 'addressed.action'
+    _description = 'Addressed Action'
 
     name = fields.Char(string='Name')
     external_id = fields.Char(string='External ID', required=True)
