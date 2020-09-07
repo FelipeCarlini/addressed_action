@@ -1,4 +1,4 @@
-# addressed_action
+# Addressed Action
 ODOO module that allows developers to quickly load actions
 
 **Steps**                                                                                                                                                                                                                                                                                                                               
