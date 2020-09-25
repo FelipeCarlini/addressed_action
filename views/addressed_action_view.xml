@@ -7,7 +7,7 @@
         <field name="arch" type="xml">
             <tree editable="bottom">
                 <field name="name"/>
-                <field name="external_id"/>
+                <field name="external_id" context="{'addressed_action_view': True}" options="{'no_create_edit': True}"/>
                 <button name="charge_action" string="Charge action" type="object" class="btn btn-dark"/>
             </tree>
         </field>
@@ -18,6 +18,7 @@
         <field name="res_model">addressed.action</field>
         <field name="view_type">form</field>
         <field name="view_mode">tree</field>
+        <field name="context">{'addressed_action_view': True}</field>
     </record>
 
 </odoo>
