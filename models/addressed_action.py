@@ -1,4 +1,4 @@
-from odoo import fields, models, api, _, exceptions
+from openerp import fields, models, api, _, exceptions
 
 
 class AddressedAction(models.Model):
@@ -12,7 +12,7 @@ class AddressedAction(models.Model):
             if rec.external_id:
                 try:
                     rec.name = self.env.ref(
-                        f'{rec.external_id.module}.{rec.external_id.name}'
+                        rec.external_id.module + '.' + rec.external_id.name
                     ).name
                 except Exception:
                     return
@@ -24,7 +24,7 @@ class AddressedAction(models.Model):
     def charge_action(self):
         if len(self) == 1:
             try:
-                action = self.env.ref(f'{self.external_id.module}.{self.external_id.name}')
+                action = self.env.ref(self.external_id.module + '.' + self.external_id.name)
             except ValueError:
                 raise exceptions.Warning(_('External ID not found in the system'))
             actions = [

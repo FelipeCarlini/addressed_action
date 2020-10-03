@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <templates id="template" xml:space="preserve">
-    <t t-extend="WebClient.DebugManager.Action">
-        <t t-jquery="t[t-if='action.res_model']" t-operation="after">
-            <li><a href="#" data-action="addressed_action_view">Open action view</a></li>
+
+    <t t-extend="ViewManagerDebug">
+        <t t-jquery="option[t-if='view_manager.action']" t-operation="after">
+            <option value="addressed_action_view">Open action view</option>
         </t>
     </t>
+
 </templates>

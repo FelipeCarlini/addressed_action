@@ -22,7 +22,7 @@
 {
     "name": "Addressed Action",
     "category": "Other",
-    "version": "11.0.1.0.0",
+    "version": "8.0.1.0.0",
     "description": "Allows quick access to a actions",
     "author": "Eynes",
     "website": "http://www.eynes.com.ar/",
